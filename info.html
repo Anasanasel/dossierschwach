@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOSSIER SCWACH - Infos | CinéFlix</title>
+    <link rel="stylesheet" href="info.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="netflix-header">
+        <nav>
+            <img src="logo.avif" alt="CinéFlix" class="logo">
+            <div class="nav-right">
+                <a href="index.html" class="btn-back">
+                    <i class="fas fa-arrow-left"></i> Retour
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="film-info-container">
+        <div class="film-header">
+            <h1>DOSSIER SCHWACH</h1>
+            <div class="film-meta">
+                <span class="rating-badge">16+</span>
+                <span class="duration">30 min</span>
+                <span class="genre">Horreur</span>
+            </div>
+        </div>
+
+        <div class="film-content">
+            <div class="film-poster" style="background-image: url('assets/film-poster.jpg')"></div>
+            
+            <div class="film-details">
+                <div class="synopsis">
+                    <h2>Synopsis</h2>
+                    <p>Adam Schwarch s'arrête dans un hôtel isolé avant un repas familial, sans imaginer que cette nuit va bouleverser sa famille. Des phénomènes étranges apparaissent autour de lui et de son frère et sa sœur, liés à l'implication récente de leurs parents dans une organisation secrète.</p>
+                </div>
+
+                <div class="monsters-section">
+                    <h2>Créatures du film</h2>
+                    <div class="monsters-grid">
+                        <div class="monster-card">
+                            <div class="monster-img" style="background-image: url('assets/monster1.jpg')"></div>
+                            <h3>L'Observateur</h3>
+                        </div>
+                        <div class="monster-card">
+                            <div class="monster-img" style="background-image: url('assets/monster2.jpg')"></div>
+                            <h3>La Silhouette</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rating-section">
+                    <h2>Notez le film</h2>
+                    <div class="star-rating">
+                        <span class="star" data-value="1">★</span>
+                        <span class="star" data-value="2">★</span>
+                        <span class="star" data-value="3">★</span>
+                        <span class="star" data-value="4">★</span>
+                        <span class="star" data-value="5">★</span>
+                    </div>
+                    <p class="rating-text">Votre note: <span id="current-rating">0</span>/5</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="action-buttons">
+            <a href="trailer.html" class="btn-trailer">
+                <i class="fas fa-play"></i> Voir la bande-annonce
+            </a>
+        </div>
+    </main>
+
+    <script src="info.js"></script>
+</body>
+</html>
